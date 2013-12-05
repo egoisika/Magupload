@@ -13,9 +13,13 @@ namespace
 
 		}
 
-		private function loggedInUser()
+		private function logInUser()
 		{
-			
+			return $this;
+		}
+		public function addUser(Array $array)
+		{
+
 		}
 	}
 }
